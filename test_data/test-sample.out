@@ -1,0 +1,107 @@
+-- Feature 1
+-- Get all repositories and display
++----------+-------------+
+| name     | owner       |
++----------+-------------+
+| coconut  | evhub       |
+| flask    | pallets     |
+| DeepSnow | patrickzbhe |
++----------+-------------+
+
+-- Test for Flask
+-- Get summary data for each repository
++----------+
+| COUNT(*) |
++----------+
+|       39 |
++----------+
+
+
++----------+
+| COUNT(*) |
++----------+
+|       44 |
++----------+
+
++----------+
+| COUNT(*) |
++----------+
+|        1 |
++----------+
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+
+-- Feature 2
++-----------+-------------+------------+
+| repo_name | owner       | num_issues |
++-----------+-------------+------------+
+| flask     | pallets     |         44 |
+| coconut   | evhub       |         10 |
+| DeepSnow  | patrickzbhe |          3 |
++-----------+-------------+------------+
+
+-- Feature 3
++-------------+-----------+
+| name        | followers |
++-------------+-----------+
+| evhub       |      NULL |
+| pallets     |      NULL |
+| patrickzbhe |      NULL |
+| Some_Owner  |      NULL |
++-------------+-----------+
+
++-------------+-----------+
+| name        | following |
++-------------+-----------+
+| evhub       |      NULL |
+| pallets     |      NULL |
+| patrickzbhe |      NULL |
+| Some_Owner  |      NULL |
++-------------+-----------+
+
++-----------+-------+-------------+
+| name      | stars | owner       |
++-----------+-------+-------------+
+| coconut   |  3791 | evhub       |
+| DeepSnow  |     0 | patrickzbhe |
+| flask     | 62466 | pallets     |
+| Some_Repo |  NULL | Some_Owner  |
++-----------+-------+-------------+
+
+SELECT * from File WHERE Owner = "Some_Owner"
++-------+----------+--------+-----------+------------+
+| name  | language | path   | repo_name | owner      |
++-------+----------+--------+-----------+------------+
+| hi.py | python   | /hi.py | Some_Repo | Some_Owner |
++-------+----------+--------+-----------+------------+
+
+
++-----+----------------------+------------+----------+----------+--------+-----------+------------+--------+
+| id  | check_id             | start_line | end_line | category | impact | repo_name | owner      | path   |
++-----+----------------------+------------+----------+----------+--------+-----------+------------+--------+
+| 276 | python.lang.security |          2 |        5 | lang     | low    | Some_Repo | Some_Owner | /hi.py |
++-----+----------------------+------------+----------+----------+--------+-----------+------------+--------+
+
+-- Feature 4
+-- Calculate impact of each repo
++-----------+-------------+-------+------------+------------+------------+--------+
+| repo_name | owner       | stars | tot_issues | max_impact | avg_impact | impact |
++-----------+-------------+-------+------------+------------+------------+--------+
+| coconut   | evhub       |  3791 |         10 |          5 |     4.8000 | HIGH   |
+| DeepSnow  | patrickzbhe |     0 |          3 |          3 |     3.0000 | MEDIUM |
+| flask     | pallets     | 62466 |         44 |          5 |     2.7727 | HIGH   |
+| Some_Repo | Some_Owner  |  NULL |          1 |          1 |     1.0000 | LOW    |
++-----------+-------------+-------+------------+------------+------------+--------+
+
+-- Feature 6
+-- Find repos with below average performance
++---------+---------+------------+
+| name    | owner   | ovr_impact |
++---------+---------+------------+
+| coconut | evhub   |         48 |
+| flask   | pallets |        122 |
++---------+---------+------------+

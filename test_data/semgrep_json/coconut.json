@@ -1,0 +1,751 @@
+{
+    "repo_name": "coconut",
+    "owner_type": "user",
+    "owner": "evhub",
+
+    "errors":[
+       
+    ],
+    "paths":{
+       "_comment":"<add --verbose for a list of skipped paths>",
+       "scanned":[
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.appveyor.yml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.gitattributes",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.github/workflows/codeql-analysis.yml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.github/workflows/run-tests.yml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.gitignore",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.pre-commit-config.yaml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/.readthedocs.yml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/CONTRIBUTING.md",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/DOCS.md",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/FAQ.md",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/FUNDING.yml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/HELP.md",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/LICENSE.txt",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/MANIFEST.in",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/Makefile",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/README.rst",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/__coconut__/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/__coconut__/__init__.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/__coconut__/py.typed",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/_coconut/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/_coconut/__init__.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/_coconut/py.typed",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__coconut__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__coconut__.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__init__.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__main__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/_pyparsing.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/__init__.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/cli.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/command.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/command.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/mypy.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/resources/zcoconut.pth",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/util.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/watch.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/compiler.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/grammar.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/header.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/matching.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/templates/header.py_template",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/util.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/constants.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/convenience.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/convenience.pyi",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/exceptions.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/highlighter.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/__main__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/coconut_py/kernel.json",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/coconut_py2/kernel.json",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/coconut_py3/kernel.json",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/embed.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/root.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/integrations.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/main.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/py.typed",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/requirements.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/root.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/terminal.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/__init__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/__main__.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/constants_test.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/main_test.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/__init__.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/main.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/primary.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/specific.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/suite.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/tutorial.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/agnostic/util.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/non_strict/non_strict_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_2/py2_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_3/py3_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_35/py35_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_36/py36_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_38/py38_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/cocotest/target_sys/target_sys_test.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/extras.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/runnable.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/src/runner.coco",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/util.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/conf.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/pyproject.toml",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/setup.cfg",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/setup.py",
+          "/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/xontrib/coconut.py"
+       ]
+    },
+    "results":[
+       {
+          "check_id":"python.lang.security.audit.eval-detected.eval-detected",
+          "end":{
+             "col":37,
+             "line":198,
+             "offset":5488
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"b895f22eb5b0b4f6040c59e1818cc9ef78d1578573cd0cb59b96793131efe4362426c109aed360098d1d3807b150b6e008a3a5012a303b463e7ee31bb042ccf8_0",
+             "is_ignored":false,
+             "lines":"        result = eval(code, in_vars)",
+             "message":"Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"gxU149",
+                      "url":"https://semgrep.dev/playground/r/O9TZ0D/python.lang.security.audit.eval-detected.eval-detected",
+                      "version_id":"O9TZ0D"
+                   }
+                },
+                "shortlink":"https://sg.run/ZvrD",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.eval-detected.eval-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/util.py",
+          "start":{
+             "col":18,
+             "line":198,
+             "offset":5469
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.eval-detected.eval-detected",
+          "end":{
+             "col":34,
+             "line":889,
+             "offset":31196
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"2eab67e572730fb7c328ba8ad0a63562b32ad93e21c3fe2afdf060f8faf35f6b924e64e79a09ed2ab7807b68cb4b4eb3e24e20e704736280ed5ef54c157175c3_0",
+             "is_ignored":false,
+             "lines":"        pprint(eval(repr(tokens)))",
+             "message":"Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"gxU149",
+                      "url":"https://semgrep.dev/playground/r/O9TZ0D/python.lang.security.audit.eval-detected.eval-detected",
+                      "version_id":"O9TZ0D"
+                   }
+                },
+                "shortlink":"https://sg.run/ZvrD",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.eval-detected.eval-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/compiler/util.py",
+          "start":{
+             "col":16,
+             "line":889,
+             "offset":31178
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.eval-detected.eval-detected",
+          "end":{
+             "col":50,
+             "line":140,
+             "offset":4405
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"5bbd1a22c6c8abeddc6dcce35061b3bb55c602667a25a5a52a5b66d07bb5004f20e01a7781db950fdd4625ca9757a1cecdbe19c6d618ff3b2cdc6a8ae4e93c22_0",
+             "is_ignored":false,
+             "lines":"    return eval(compiled_python, globals, locals)",
+             "message":"Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"gxU149",
+                      "url":"https://semgrep.dev/playground/r/O9TZ0D/python.lang.security.audit.eval-detected.eval-detected",
+                      "version_id":"O9TZ0D"
+                   }
+                },
+                "shortlink":"https://sg.run/ZvrD",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.eval-detected.eval-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/convenience.py",
+          "start":{
+             "col":12,
+             "line":140,
+             "offset":4367
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":68,
+             "line":30,
+             "offset":1314
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"d00fe16e13cfe85c6067276c1e56fe173bd7d73e01421a95e927aa37199065ec8f8004b3baec94f9e9536c0713cfd7eb3c81bb2703b5d307f7ad9163515eeb5e_0",
+             "is_ignored":false,
+             "lines":"exec(_coconut_Compiler(**_coconut_kernel_kwargs).getheader(\"code\"))",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/__coconut__.py",
+          "start":{
+             "col":1,
+             "line":30,
+             "offset":1247
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":38,
+             "line":294,
+             "offset":10890
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"23bf95ba98ad7f45b6dad280d8beaae7b6267e06a788b07f046b88154ac8afc39154e754bac4096396f6c1647565839eb444b6c68e5bdf8a2355bd8b2e1e1210_0",
+             "is_ignored":false,
+             "lines":"    exec(new_method_code, _exec_dict)",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/_pyparsing.py",
+          "start":{
+             "col":5,
+             "line":294,
+             "offset":10857
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":36,
+             "line":192,
+             "offset":5346
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"dfc50af4dc0ec92ac89f8de68328a76e1f80a3a9ea9af32f08a9a991f980548c5774b72041ac669ce01be8df8a211c091f8cc27c76a20ffcf7a91fa1630548cd_0",
+             "is_ignored":false,
+             "lines":"    exec(code, glob_vars, loc_vars)",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/command/util.py",
+          "start":{
+             "col":5,
+             "line":192,
+             "offset":5315
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":79,
+             "line":245,
+             "offset":8619
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"c6bf8fea27633727370c9ef53d4fb309c24550f4fa9a41c565c12a7217fe74d491aa0e5653620f8fe952c8a5db49c4e38a730a0bef13db9ad840e258d76dbeb6_0",
+             "is_ignored":false,
+             "lines":"        exec(INTERACTIVE_SHELL_CODE.format(cls=\"CoconutShell\", **format_dict))",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/root.py",
+          "start":{
+             "col":9,
+             "line":245,
+             "offset":8549
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":84,
+             "line":251,
+             "offset":8861
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"c6bf8fea27633727370c9ef53d4fb309c24550f4fa9a41c565c12a7217fe74d491aa0e5653620f8fe952c8a5db49c4e38a730a0bef13db9ad840e258d76dbeb6_1",
+             "is_ignored":false,
+             "lines":"        exec(INTERACTIVE_SHELL_CODE.format(cls=\"CoconutShellEmbed\", **format_dict))",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/icoconut/root.py",
+          "start":{
+             "col":9,
+             "line":251,
+             "offset":8786
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.exec-detected.exec-detected",
+          "end":{
+             "col":21,
+             "line":277,
+             "offset":12688
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"cfcc45adb5e768174602f7b585e99d92f694d66d588c1ae55688a6af6a9806cc2cf8065cc8a13b0bcca063235653fc6f1eb1866ee0c0420630a78733da8874e8_0",
+             "is_ignored":false,
+             "lines":"    exec(PY3_HEADER)",
+             "message":"Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources.",
+             "metadata":{
+                "asvs":{
+                   "control_id":"5.2.4 Dyanmic Code Execution Features",
+                   "control_url":"https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md#v52-sanitization-and-sandboxing-requirements",
+                   "section":"V5: Validation, Sanitization and Encoding Verification Requirements",
+                   "version":"4"
+                },
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+                ],
+                "impact":"HIGH",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A03:2021 - Injection"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A03_2021-Injection"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"QrUzKv",
+                      "url":"https://semgrep.dev/playground/r/e1TAdz/python.lang.security.audit.exec-detected.exec-detected",
+                      "version_id":"e1TAdz"
+                   }
+                },
+                "shortlink":"https://sg.run/ndRX",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.exec-detected.exec-detected",
+                "source-rule-url":"https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/root.py",
+          "start":{
+             "col":5,
+             "line":277,
+             "offset":12672
+          }
+       },
+       {
+          "check_id":"python.lang.security.audit.non-literal-import.non-literal-import",
+          "end":{
+             "col":62,
+             "line":150,
+             "offset":4876
+          },
+          "extra":{
+             "engine_kind":"OSS",
+             "fingerprint":"5d6edf2824386414318f81f06e25808949b085355625307f8a23ae4aa527823f3214b22fc319b6e8757852bf42073561bbbbb8aa8144c04f0f24407b1aa13867_0",
+             "is_ignored":false,
+             "lines":"                module = importlib.import_module(module_name)",
+             "message":"Untrusted user input in `importlib.import_module()` function allows an attacker to load arbitrary code. Avoid dynamic values in `importlib.import_module()` or use a whitelist to prevent running untrusted code.",
+             "metadata":{
+                "category":"security",
+                "confidence":"LOW",
+                "cwe":[
+                   "CWE-706: Use of Incorrectly-Resolved Name or Reference"
+                ],
+                "impact":"MEDIUM",
+                "license":"Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                "likelihood":"LOW",
+                "owasp":[
+                   "A01:2021 - Broken Access Control"
+                ],
+                "references":[
+                   "https://owasp.org/Top10/A01_2021-Broken_Access_Control"
+                ],
+                "semgrep.dev":{
+                   "rule":{
+                      "origin":"community",
+                      "rule_id":"AbUGN5",
+                      "url":"https://semgrep.dev/playground/r/A8TnY4/python.lang.security.audit.non-literal-import.non-literal-import",
+                      "version_id":"A8TnY4"
+                   }
+                },
+                "shortlink":"https://sg.run/y6Jk",
+                "source":"https://semgrep.dev/r/python.lang.security.audit.non-literal-import.non-literal-import",
+                "subcategory":[
+                   "audit"
+                ],
+                "technology":[
+                   "python"
+                ]
+             },
+             "metavars":{
+                "$NAME":{
+                   "abstract_content":"module_name",
+                   "end":{
+                      "col":61,
+                      "line":150,
+                      "offset":4875
+                   },
+                   "start":{
+                      "col":50,
+                      "line":150,
+                      "offset":4864
+                   }
+                }
+             },
+             "severity":"WARNING"
+          },
+          "path":"/tmp/703265fe-dd98-42c7-bdc8-7ca22d2393a5/coconut/tests/main_test.py",
+          "start":{
+             "col":26,
+             "line":150,
+             "offset":4840
+          }
+       }
+    ],
+    "version":"1.14.0"
+ }

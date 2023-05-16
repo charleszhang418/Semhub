@@ -1,0 +1,12 @@
+.Button-container {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10px;
+}

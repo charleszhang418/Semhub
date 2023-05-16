@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+input {
+    font-size: x-large;
+    margin: 0 20px;
+}
+
+.input-container {
+    margin: 5px;
+    padding: 15px 30px;
+    border-radius: 50px;
+}

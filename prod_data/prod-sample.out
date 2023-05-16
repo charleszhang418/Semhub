@@ -1,0 +1,135 @@
+-- Feature 1
+-- Get all repositories and display
++------------------+------------+
+| name             | owner      |
++------------------+------------+
+| zerorpc-python   | 0rpc       |
+| websockets       | aaugustin  |
+| vidgear          | abhiTronix |
+| polyglot         | aboSamoor  |
+| awesome-dash     | Acrotrend  |
+| face_recognition | ageitgey   |
+| merchant         | agiliq     |
+| python-magic     | ahupp      |
+| scikit-video     | aizvorski  |
+| ajenti           | ajenti     |
++------------------+------------+
+
+-- Test for Flask
++----------+
+| COUNT(*) |
++----------+
+|       32 |
++----------+
+
++----------+
+| COUNT(*) |
++----------+
+|        4 |
++----------+
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+
++----------+
+| COUNT(*) |
++----------+
+|        1 |
++----------+
+
+-- Feature 2
++---------------+---------------+------------+
+| repo_name     | owner         | num_issues |
++---------------+---------------+------------+
+| cpython       | python        |       1709 |
+| ironpython3   | IronLanguages |       1667 |
+| stackless     | stackless-dev |       1543 |
+| RustPython    | RustPython    |       1328 |
+| pytorch       | pytorch       |        926 |
+| akshare       | jindaxiang    |        661 |
+| salt          | saltstack     |        628 |
+| python-driver | datastax      |        625 |
+| jinja         | pallets       |        512 |
+| pywin32       | mhammond      |        269 |
++---------------+---------------+------------+
+
+-- Feature 3
+Query OK, 1 row affected (0.02 sec)
+Query OK, 1 row affected (0.02 sec)
+Query OK, 1 row affected (0.02 sec)
+Query OK, 1 row affected (0.02 sec)
+Query OK, 1 row affected (0.02 sec)
+
+-- Feature 4
+-- Calculate impact of each repo
++-------------------+------------+-------+------------+------------+------------+--------+
+| repo_name         | owner      | stars | tot_issues | max_impact | avg_impact | impact |
++-------------------+------------+-------+------------+------------+------------+--------+
+| RustPython        | RustPython | 14622 |       1328 |          5 |     3.1596 | HIGH   |
+| zerorpc-python    | 0rpc       |  3052 |          4 |          5 |     4.5000 | HIGH   |
+| websockets        | aaugustin  |  4463 |         51 |          5 |     3.1569 | HIGH   |
+| merchant          | agiliq     |   999 |         15 |          3 |     2.7333 | MEDIUM |
+| ansible           | ansible    | 56786 |        135 |          5 |     3.0889 | HIGH   |
+| aws-cli           | aws        | 13581 |         16 |          5 |     2.8750 | MEDIUM |
+| aws-data-wrangler | awslabs    |  3373 |         67 |          5 |     4.9403 | HIGH   |
+| beets             | beetbox    | 11534 |         32 |          5 |     2.8750 | HIGH   |
+| pyspider          | binux      | 15788 |         16 |          5 |     4.0000 | HIGH   |
+| blaze             | blaze      |  3130 |         45 |          5 |     3.9333 | HIGH   |
++-------------------+------------+-------+------------+------------+------------+--------+
+
+-- Feature 6
+-- Find repos with below average performance
++--------------------+-----------------+------------+
+| name               | owner           | ovr_impact |
++--------------------+-----------------+------------+
+| RustPython         | RustPython      |       4196 |
+| ansible            | ansible         |        417 |
+| aws-data-wrangler  | awslabs         |        331 |
+| blaze              | blaze           |        177 |
+| bokeh              | bokeh           |        183 |
+| cola               | chineking       |        222 |
+| pattern            | clips           |        224 |
+| autobahn-python    | crossbario      |        796 |
+| dask               | dask            |        279 |
+| python-driver      | datastax        |       3067 |
+| pyre-check         | facebook        |        387 |
+| responses          | getsentry       |        178 |
+| sanic              | huge-success    |        163 |
+| hypothesis         | HypothesisWorks |        172 |
+| indico             | indico          |        429 |
+| ironpython3        | IronLanguages   |       5807 |
+| EasyOCR            | JaidedAI        |        166 |
+| akshare            | jindaxiang      |       1119 |
+| pyjwt              | jpadilla        |        176 |
+| pywin32            | mhammond        |       1271 |
+| micropython        | micropython     |        382 |
+| PTVS               | Microsoft       |        245 |
+| mindsdb            | mindsdb         |        305 |
+| nupic              | numenta         |        703 |
+| jinja              | pallets         |       1540 |
+| markupsafe         | pallets         |        189 |
+| supersqlite        | plasticityai    |        477 |
+| prefect            | PrefectHQ       |        166 |
+| requests           | psf             |        190 |
+| pyinstaller        | pyinstaller     |        274 |
+| mysqlclient-python | PyMySQL         |        520 |
+| PyMySQL            | PyMySQL         |        570 |
+| warehouse          | pypa            |        204 |
+| cpython            | python          |       5559 |
+| pytorch            | pytorch         |       3420 |
+| robotframework     | robotframework  |        171 |
+| apsw               | rogerbinns      |        532 |
+| salt               | saltstack       |       2062 |
+| python-pptx        | scanny          |        246 |
+| poetry             | sdispater       |        340 |
+| urllib3            | shazow          |        570 |
+| scoop              | soravux         |        477 |
+| luigi              | spotify         |        423 |
+| spyder             | spyder-ide      |        481 |
+| sqlmap             | sqlmapproject   |        313 |
+| stackless          | stackless-dev   |       4915 |
+| stanza             | stanfordnlp     |        236 |
++--------------------+-----------------+------------+
